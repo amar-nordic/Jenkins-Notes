@@ -1,5 +1,6 @@
 # What is a Jenkinsfile
 
+- A pipeline is defined in a file called Jenkinsfile
 - Jenkinsfile is a text file that we place in the root directory of our source
 code repository.
 - Jenkins supports two syntaxes: Declarative (recommended) and Scripted.
