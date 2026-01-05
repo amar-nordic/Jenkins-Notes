@@ -13,6 +13,7 @@ CI/CD pipeline as code.
     - Build, test, and deploy in stages
     - Run steps on different agents (nodes, containers)
     - Set environment variables, parameters, options, and post actions
+- Jenkins uses Groovy as the language to define pipelines, automation logic, and extensions
 
 ## Jenkins Pipeline
 
@@ -61,3 +62,22 @@ CI/CD pipeline as code.
       }
     }
     ```
+
+---
+
+### We can call scripts written in other languages from a Groovy pipeline 
+
+```groovy
+    pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                sh 'python build.py'
+                sh 'npm run build'
+                sh './build.sh'
+            }
+        }
+    }
+}
+```

@@ -2,6 +2,7 @@
 
 Groovy (a programming language) is used for Jenkins pipelines and has a syntax similar to Java but with added productivity features.
 
+- Jenkins pipelines are written in Groovy
 - Jenkins Pipelines are defined using a Groovy-based Domain-Specific Language (DSL).
 - Groovy combines features of Java with scripting capabilities
 - Groovy has scripting capabilities - It can execute scripts without the need for compilation

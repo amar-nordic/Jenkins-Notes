@@ -1,5 +1,9 @@
-# Jenkinsfile - Common Building Blocks (Declarative)
+# Jenkinsfile
 
+- Jenkins pipelines are written in Groovy
+- A Jenkinsfile is a text file written in Groovy that defines the pipeline
+
+# Jenkinsfile - Common Building Blocks (Declarative)
 ### pipeline { ... }: Top-level block.
 
 1. agent – where our pipeline runs
