@@ -21,6 +21,8 @@ Pipeline-level behaviors (timeouts, retry, timestamps, durability hints)
 11. matrix: run the same pipeline steps across multiple combinations of parameters
 like different Operating Systems, JDK versions or browsers in parallel
 
+---
+
 - In a Declarative Pipeline, each stage usually contains a steps { ... } block
 - Inside steps, optionally we can have script { ... } block
 - script { ... } inside steps is optional and used to run Scripted/Groovy logic
